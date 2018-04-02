@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/bootstrap/4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+
+<body>
+    <div class="container">
+            <div class="row justify-content-center">
+                <h2>Buzz Light Beer</h2>
+            </div>
+        <div class="row justify-content-center">
+            
+            <div class="img">
+                <img src="img/cheers.png">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <form class="form-inline">
+                <div class="col-md-8">                     
+                    <input type="text" class="form-control" id="text" placeholder="Type your beer...">
+                </div>
+                <div class="col-sm-2">  
+                    <button type="submit" class="btn btn-primary" id="boton">Send</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="row">
+            <table class="table table-bordered" id="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Number</th>
+                        <th scope="col">id</th>
+                        <th scope="col">Beer Name</th>
+                        <th scope="col">icon</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </div>
+
+    <!--<script src="vendor/jquery/3.3.1/jquery-3.3.1.slim.min.js"></script>-->
+    <script src="vendor/jquery/3.3.1/jquery-3.3.1.min.js"></script>
+    <script src="vendor/popper/1.0/popper.min.js"></script>
+    <script src="vendor/bootstrap/4.0/js/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/api.js"></script>
+</body>
+
+
+</html>

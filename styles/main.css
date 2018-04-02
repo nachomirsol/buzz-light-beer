@@ -1,0 +1,17 @@
+body{margin:0px;padding:0px;background-color:#FDE823; width:100%;height:100%;}
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+h2{color:#dcb231;font-family: 'Rammetto One', cursive;font-size:40px;}
+.img{width:600px;}
+.img img{width:600px;}
+.img2{max-width:490px;}
+.modal-footer{padding:5px;}
+form{margin-top:5%;}
+form #text{width:280px;height:50px;}
+form #boton{width:100px;height:50px;background-color:#FDE823;border:2px solid white;}
+form #boton:hover{background-color:rgb(209, 194, 27);}
+
+#table{background-color:white;margin-top:5%;}
+#table thead tr th{color:#b7ad12;}
+#table tbody tr td{color:rgb(150,150,150);}
+#popup{background-color:white;margin-top:5%;}
+.container{margin-top:15px;}
