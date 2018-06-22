@@ -1,4 +1,4 @@
-var beersApi;
+let beersApi;
 (function(){
 
     const call= function(url,handleSuccess,handleError){// llamada ajax preparada
