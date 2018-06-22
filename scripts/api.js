@@ -1,7 +1,7 @@
 let beersApi;
 (function(){
 
-    const call= function(url,handleSuccess,handleError){// llamada ajax preparada
+    const call= function(url,handleSuccess,handleError){
         fetch(url)
         .then(data => data.json())
         .then(data => handleSuccess(data))
